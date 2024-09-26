@@ -2,6 +2,7 @@
 'use client';
 import {
     UserGroupIcon,
+
     HomeIcon,
     DocumentDuplicateIcon,
   } from '@heroicons/react/24/outline';
@@ -35,6 +36,7 @@ import {
               {
                 'bg-sky-100 text-blue-600': pathname === link.href,
               },
+              //hola
             )}
           >
               <LinkIcon className="w-6" />
